@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="bg-gray-200">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Users using API, Js, Tailwind</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fakhrul62.github.io/icons/css/fontawesome.css">
+    <link rel="stylesheet" href="https://fakhrul62.github.io/icons/css/sharp-thin.css">
+</head>
+
+<body class="py-2">
+    <header class="text-center py-2">
+        <h1 class="text-4xl font-black uppercase text-black">New Users</h1>
+    </header>
+    <main class="w-11/12 mx-auto">
+        <button class="btn btn error my-2 sticky top-16 shadow-2xl border-1 border-gray-600" onclick="fetchUser()">New <i class="fa-sharp fa-thin fa-plus"></i></button>
+        <button class="btn btn error my-2 sticky top-16 shadow-2xl border-1 border-gray-600" id="sortByAge">Sort by Age <i class="fa-sharp fa-thin fa-arrow-up"></i></button>
+        <div class="grid grid-cols-4 gap-5" id="main-div"></div>
+        <div class="text-center my-2"><button class="btn btn-accent" hidden id="load-btn">Load More</button></div>
+    </main>
+
+
+    <script src="js/main2.js"></script>
+    <script src="https://fakhrul62.github.io/icons/js/fontawesome.js"></script>
+    <script src="https://fakhrul62.github.io/icons/js/sharp-thin.js"></script>
+
+</body>
+
+</html>
