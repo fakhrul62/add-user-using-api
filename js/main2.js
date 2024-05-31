@@ -19,7 +19,7 @@ const getNewUser = () => {
     }
     usersToShow.forEach(users => {
         const divGrid = document.createElement('div'); // Create a div for each user
-        divGrid.classList = `bg-white p-6 rounded-xl flex flex-col gap-3 shadow-xl`; // Add CSS classes to div
+        divGrid.classList = `bg-white p-6 rounded-xl flex flex-col gap-3 shadow-xl transition-all`; // Add CSS classes to div
 
         // Add HTML content to the div
         divGrid.innerHTML = `
